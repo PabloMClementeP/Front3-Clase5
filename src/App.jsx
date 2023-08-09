@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <h1>Clase 5 - Mesa 9</h1>
-      <button onClick={()=> randomFrase()}>Pintar frase</button>
+      <button onClick={()=> randomFrase()}>Pintar frase aleatoria</button>
       <Hijo frase={frase}/>
     </>
   )

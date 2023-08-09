@@ -1,10 +1,10 @@
 
 const Hijo = ({frase}) => {
   return (
-    <>
-        <div>Hijo</div>
-        <p>{frase}</p>
-    </>
+    <div className="hijo">
+        <h2>Hijo</h2>
+        <h3> Frase generada en el padre: {frase}</h3>
+    </div>
   )
 }
 
